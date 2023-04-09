@@ -3,6 +3,8 @@
 
 print("Enter your initial balance, followed by your withdrawal amount: ")
 initialBalance = int(input())
+
+print("Amount to withdraw: ")
 withdrawal = int(input())
 
 initialBalance -= withdrawal
