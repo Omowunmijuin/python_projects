@@ -1,4 +1,6 @@
-# drawing a snowflake
+#!/usr/bin/python3
+""" drawing a snowflak """
+
 
 flake1 = "  *  "
 flake2 = " *** "
