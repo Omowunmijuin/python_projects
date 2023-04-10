@@ -6,6 +6,6 @@ print("Enter your age to check if you are eligible for clubing: ")
 age = int(input())
 
 if age >= 18:
-    print("Yay! let's go clubing")
+    print("Yay! let's go clubing.")
 else:
-    print("sorry champ! give it a try when you hit 18")
+    print("sorry champ! give it another try when you hit 18.")
