@@ -6,18 +6,18 @@ print("Choose a color: ")
 color = input()
 
 print("Available colors are: [Red, Green, Blue, Yellow, Black]")
-items = red, green, blue, yellow, black 
-items = color
+item = ['red', 'green', 'blue', 'yellow', 'black']
+item = color
 
-if color is red:
+if item == 'red':
     print("box #1")
-elif color is green:
+elif item == 'green':
     print("box #2")
-elif color is blue:
+elif item == 'blue':
     print("box #3")
-elif color is yellow:
+elif item == 'yellow':
     print("box #4")
-elif color is black:
+elif item == 'black':
     print("box #5")
 else:
     print("Unknown color")
