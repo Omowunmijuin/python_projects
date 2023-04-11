@@ -6,7 +6,7 @@ print("Enter your prepered day and hour: ")
 day = int(input())
 hour = int(input())
 
-if day >= 0 or day <= 5:
+if day == 1 or day <= 5:
     if hour > 9 and hour <= 21:
         print("We're open!")
     else:
