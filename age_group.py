@@ -2,6 +2,7 @@
 """ Using the Boolean logic to document and handle user age groups """
 
 
+print("Enter your name to check your age group: ")
 age = int(input())
 
 if age > 0 and age <= 11:
