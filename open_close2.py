@@ -2,6 +2,7 @@
 """ using the boolean logic to check if a store is open or not on a specific day and hour """
 
 
+print("Enter your prefered day and hour: ")
 day = int(input())
 hour = int(input())
 
