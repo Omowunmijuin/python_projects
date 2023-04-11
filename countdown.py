@@ -8,3 +8,6 @@ seconds = int(input())
 while seconds >= 0:
     print(seconds)
     seconds -= 1
+    if seconds == 0:
+        print("Hurray!")
+        break
