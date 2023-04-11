@@ -2,6 +2,7 @@
 """ Write a program that output whether a stor is open or closed, based on a giving day and hour of the week """
 
 
+print("Enter your prepered day and hour: ")
 day = int(input())
 hour = int(input())
 
