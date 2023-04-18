@@ -9,4 +9,6 @@ carData = {'brand': 'Toyota',
 
 print('Enter car data: ')
 carType = input()
+
+print(carData)
 print(carData[carType])
