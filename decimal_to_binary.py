@@ -7,5 +7,6 @@ def convert(num):
         return True
     return (num % 2 + 10 * convert(num // 2))
 
+print("Enter a Decimal number to convert: ")
 fix = int(input())
 print(convert(fix))
