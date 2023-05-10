@@ -3,7 +3,7 @@
 
 
 class student:
-    def __init__(self, name)
-    self.name = name
+    def __init__(self, name):
+        self.name = name
 
 file = student("Tobi")
