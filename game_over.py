@@ -8,3 +8,8 @@ class Player:
 
     def intro(self):
         print(self.name + " (Level " + self.level + ")")
+
+name = input()
+level = input()
+info _ Player(name, level)
+info.intro()
