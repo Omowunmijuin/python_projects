@@ -8,9 +8,19 @@ class Greating:
         self.time = time
 
     def sayHi(self):
-        print(self.name + "Says Hi, " + self.time)
+        if self.time == 0 or self.time < 12:
+            print(self.name + " Says Good morning")
+        elif self.time > 11 and self.time < 17:
+            print(self.name + " Says Good afternoon")
+        elif self.time > 16 and self.time < 21:
+            print(self.name + " Says Good evening")
+        elif self.time > 20 and self.time < 24:
+            print(self.name + " Says Good night")
+        else:
+            print("Incorrect time selected")
 
+print("Enter Your Name and the currentTime of the day to create a greating: ")
 name = input()
 time = input()
-info = Greating(name, time)
+info = Greating(name, int(time))
 info.sayHi()
